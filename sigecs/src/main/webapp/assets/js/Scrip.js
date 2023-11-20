@@ -78,14 +78,16 @@ function calculateOverallPercentage() {
         percentageCell.textContent = (overallPercentage * 100).toFixed(2) + '%';
 
         // Set background color based on percentage value
-        if (overallPercentage > 0 && overallPercentage < 0.25) {
-            percentageCell.style.backgroundColor = 'red';
-        } else if (overallPercentage >= 0.25 && overallPercentage < 0.5) {
+        if (overallPercentage >= 0 && overallPercentage <= 0.60) {
+            percentageCell.style.backgroundColor = '#FF0000';
+        } else if (overallPercentage > 0.60 && overallPercentage < 0.70) {
             percentageCell.style.backgroundColor = '#D49928';
-        } else if (overallPercentage >= 0.5 && overallPercentage < 0.75) {
-            percentageCell.style.backgroundColor = 'green';
-        } else if (overallPercentage >= 0.75 && overallPercentage <= 1) {
-            percentageCell.style.backgroundColor = 'blue';
+        } else if (overallPercentage >= 0.70 && overallPercentage < 0.80) {
+            percentageCell.style.backgroundColor = '#E1D427';
+        } else if (overallPercentage >= 0.80 && overallPercentage < 0.90) {
+            percentageCell.style.backgroundColor = '#13B210';
+        } else if(overallPercentage >= 0.90 && overallPercentage <= 1) {
+            percentageCell.style.backgroundColor = '#2999ce';
         }
 
         guardarContainer.style.display = 'block';

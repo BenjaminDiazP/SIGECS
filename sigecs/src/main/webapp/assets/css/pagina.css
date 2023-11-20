@@ -1,0 +1,380 @@
+body {
+    background-color: #c3ebe9;
+}
+
+table {
+    background-color: white;
+    width: 90%;
+    height: 106%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    margin-top: 2px;
+    margin-right: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+th,
+td {
+    border: 1px solid #8b8787;
+    padding: 14px;
+    text-align: left;
+}
+
+td.colspan {
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid black;
+    background: black;
+    color: white;
+}
+
+th.categoria {
+    text-align: center;
+    border: 3px solid black;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+}
+
+td.categoria {
+    text-align: center;
+    border: 3px solid black;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+}
+
+td.categoria img {
+
+    vertical-align: middle;
+}
+
+th.mala {
+    text-align: center;
+    background-color: #000;
+    color: #FF0000;
+}
+
+th.regular {
+    text-align: center;
+    background-color: #000;
+    color: #D49928;
+}
+
+th.buena {
+    text-align: center;
+    background-color: #000;
+    color: #E1D427;
+}
+
+th.muy-buena {
+    text-align: center;
+    background-color: #000;
+    color: #13B210;
+}
+
+th.excelente {
+    text-align: center;
+    background-color: #000;
+    color: #2999ce;
+}
+
+td.borde {
+    text-align: center;
+    border: 1px solid black;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.box-1 {
+    width: 300px;
+    height: 70px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-left: 74px;
+}
+
+.box-1 h1 {
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.box-2 {
+    display: flex;
+    width: 750px;
+    height: 70px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+.custom-select {
+    margin-left: -10px;
+}
+
+.box-2 h1 {
+    margin-top: 10px;
+
+
+}
+
+.box-2 img {
+    padding: 20px;
+    margin-top: -15px;
+}
+
+.box-3 {
+    display: flex;
+    width: 450px;
+    height: 70px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 100px;
+    border-radius: 30px;
+    margin-left: 50px;
+    overflow: hidden;
+
+}
+
+.custom-select2 {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+}
+
+.custom-select2 select {
+    margin-top: 6px;
+    width: 100%;
+    padding: 18px;
+    font-size: 18px;
+    border: 1px solid #dfd9d9;
+    border-radius: 5px;
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.custom-select2 select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.custom-select2 select option {
+    background-color: #fff;
+    color: #333;
+}
+
+.custom-select2 select option:checked {
+    background-color: #b5bdb9;
+    color: #fff;
+}
+
+.box-3 h1 {
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.box-3 img {
+    padding: 20px;
+    margin-top: -18px;
+}
+
+.vertical-box {
+    width: 150px;
+    height: 680px;
+    background-color: #8edaec;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin-right: 150px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.vertical-box img {
+    margin: 5px;
+    margin-left: 20px;
+}
+
+.vertical-box label {
+    font-size: 20px;
+    color: #000000;
+    margin-left: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.table-container {
+    flex: 3;
+    padding: 20px;
+}
+
+.rotated-text-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #cef1d2;
+    border: 2px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 830px;
+}
+
+.rotated-text {
+    writing-mode: vertical-rl;
+    transform: rotate(360deg);
+    white-space: nowrap;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 30px;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+}
+
+.custom-select select {
+    margin-top: 6px;
+    width: 160%;
+    padding: 18px;
+    font-size: 18px;
+    border: 1px solid #dfd9d9;
+    border-radius: 5px;
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.custom-select select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.custom-select select option {
+    background-color: #fff;
+    color: #333;
+}
+
+.custom-select select option:checked {
+    background-color: #b5bdb9;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.icon-container {
+    margin-left: 22px;
+    font-size: 42px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: #2E4372;
+    transition: color 0.3s ease;
+    background-color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 40px;
+}
+
+.icon-container i:hover {
+    color: #09a6bb;
+}
+
+.icon {
+    display: none;
+}
+
+.borde[selected] .icon {
+    display: inline-block;
+}
+
+#porcentaje {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+@keyframes appearAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.appear {
+    animation: appearAnimation 0.3s ease-in-out;
+}
+
+#mi-tabla {
+    display: none;
+    animation: appearAnimation 0.3s ease-in-out;
+}
+
+
+.mensaje {
+    display: none;
+    color: #000000;
+    text-align: center;
+    padding: 30px;
+    background-color: #fdfdfd9f;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+}
+

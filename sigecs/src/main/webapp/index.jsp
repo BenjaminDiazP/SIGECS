@@ -103,19 +103,19 @@
                 </td>
 
                 <td class="borde" onclick="setColor(this, 0)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 4)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 3)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 2)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 1)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
             </tr>
             <tr>
@@ -124,19 +124,19 @@
                     <p style="display: inline-block; margin-left: 5px; font-size: 25px ">Confiabilidad</p>
                 </td>
                 <td class="borde" onclick="setColor(this, 0)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 4)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 3)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 2)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 1)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
             </tr>
             <tr>
@@ -145,19 +145,19 @@
                     <p style="display: inline-block; margin-left: 5px; font-size: 25px ">Usabilidad</p>
                 </td>
                 <td class="borde" onclick="setColor(this, 0)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 4)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 3)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 2)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 1)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
             </tr>
             <tr>
@@ -166,19 +166,19 @@
                     <p style="display: inline-block; margin-left: 5px; font-size: 25px ">Rendimiento</p>
                 </td>
                 <td class="borde" onclick="setColor(this, 0)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 4)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 3)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 2)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 1)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
             </tr>
             <tr>
@@ -187,19 +187,19 @@
                     <p style="display: inline-block; margin-left: 5px; font-size: 25px ">Matenimiento</p>
                 </td>
                 <td class="borde" onclick="setColor(this, 0)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 4)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 3)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 2)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 1)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
             </tr>
             <tr>
@@ -208,19 +208,19 @@
                     <p style="display: inline-block; margin-left: 5px; font-size: 25px ">Portabilidad</p>
                 </td>
                 <td class="borde" onclick="setColor(this, 0)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 4)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 3)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 2)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 1)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
             </tr>
             <tr>
@@ -229,19 +229,19 @@
                     <p style="display: inline-block; margin-left: 5px; font-size: 25px ">Seguridad</p>
                 </td>
                 <td class="borde" onclick="setColor(this, 0)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 4)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 3)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 2)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 1)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
             </tr>
             <tr>
@@ -250,19 +250,19 @@
                     <p style="display: inline-block; margin-left: 5px; font-size: 25px ">Compatibilidad</p>
                 </td>
                 <td class="borde" onclick="setColor(this, 0)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 4)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 3)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 2)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
                 <td class="borde" onclick="setColor(this, 1)">
-                    <i class="fas fa-check" style="display: none;">
+                    <i class="fas fa-check" style="display: none;"></i>
                 </td>
             </tr>
             <tr>
